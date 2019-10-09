@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:contentPadding="10dp"
+    android:layout_gravity="center"
+    android:background="#F0F0F0"
+    android:layout_width="fill_parent"
+    android:layout_height="130dp">
+
+<!--    This is the text Chapter 1 (Title)-->
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildIndicatorRight"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+</androidx.cardview.widget.CardView>
